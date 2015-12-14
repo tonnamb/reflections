@@ -9,6 +9,7 @@ git log --graph
 # Show log with branches
 
 git add <filename>
+gid add -A
 git rm <filename>
 git status
 
