@@ -40,3 +40,6 @@ git remote add <origin> <url>
 git remote -v
 git push <origin> <master>
 git pull <origin> <master>
+git fetch <origin>
+# whenever local and remote is out-of-sync, just update the origin/master locally to match the remote
+# then we can merge origin/master with master
